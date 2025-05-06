@@ -1,0 +1,26 @@
+IA #st0, 1
+IA #st1, 20
+IA #st2, 2
+IA #st9, 1
+
+loop_start:
+IA #st4, 0
+CA #st4, #st4, #st0
+
+check_even:
+AZ #st4, #st4, #st2
+IA #st3, 0
+FL #st4, #st3, print_even
+
+skip_print:
+CA #st0, #st0, #st9
+FL #st0, #st1, end_program
+WA loop_start
+
+print_even:
+GA #st0
+WA skip_print
+
+end_program:
+UT
+

@@ -1,0 +1,50 @@
+IA #town0, 1
+IA #town1, 101
+IA #town2, 3
+IA #town3, 5
+IA #st0, 0
+IA #st1, 0
+IA #st7, 70
+IA #st8, 105
+IA #st9, 122
+IA #world0, 66
+IA #world1, 117
+IA #river, 10
+FL #town0, #town1, 35
+CT #town0, #town2
+KS #st0
+CT #town0, #town3
+KS #st1
+IA #st4, 0
+FL #st0, #st4, 1
+WA 36
+FL #st1, #st4, 1
+WA 31
+GA #st7
+GA #st8
+GA #st9
+GA #st9
+GA #world0
+GA #world1
+GA #st9
+GA #st9
+WA 44
+GA #st7
+GA #st8
+GA #st9
+GA #st9
+WA 44
+FL #st1, #st4, 1
+WA 43
+GA #world0
+GA #world1
+GA #st9
+GA #st9
+WA 44
+GA #town0
+GA #river
+IA #st2, 1
+CA #town0, #town0, #st2
+WA 12
+IA #city0, 10
+UT
